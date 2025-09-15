@@ -185,7 +185,61 @@ body {
     background-color: #443232;
     box-shadow: 15px 15px 25px black;
 
+<<<<<<< HEAD
 
 
 
+=======
+.section04 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    gap: 20px;
+    font-size: 40px;
+    background-color: #443e3efb;
+    color: white;
+}
+
+.section04 img {
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 10px #ffffffbe;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    font-size: 50px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bebebe;
+    color: #000000;
+}
+
+.informacao-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80xp;
+    width: 90vw;
+}
+
+.footer-navegacao ul, .footer-rede ul {
+    list-style: none;
+}
+
+.footer-direitos {
+    text-align: center;
+>>>>>>> 6254dd5e9dc3f8715c4862eb76fd97eaf57c3813
 }
