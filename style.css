@@ -14,8 +14,12 @@ body {
     background-color: #443e3efb;
 }
 
-.header-img {
-    width: 150px;
+.header h1 {
+    color: #fff;
+}
+
+.logo-img {
+    width: 100px;
 }
 
 .navbar {
@@ -42,10 +46,11 @@ body {
 }
 
 /*BANNER*/
-.sessao-01 {
+.banner {
     background-image: url(imagens/pexels-min-o-2151190130-31556531.jpg);
+    background-position: center;
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-position: center;
     background-size: cover;
     font-size: 50px;
@@ -64,25 +69,18 @@ body {
     height: 50px;
     width: 100px;
     border-radius: 40px;
+    cursor: pointer;
 }
 
-.section02 {
-    background-color: 404040px;
-    width: 50px;
-    display: flex;
+/*CARDS*/
 
-}
-
-.section-03 {
-
-    width: 100%;
-    background-color: #443e3efb;
+.cards {
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #443e3efb;
     gap: 17px;
-
-
 }
 
 .card-div {
@@ -90,106 +88,31 @@ body {
     width: 300px;
     display: flex;
     flex-direction: column;
-
-}
-
-
-
-.section-03 div img {
-    width: 100%;
-    height: 50%;
-}
-
-
-
-
-.section-div01 {
+    text-align: center;
+    align-items: top;
+    border-radius: 30px;
+    color: #fff;
     background-color: #443232;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 20px solid #554242;
-    color: #ffffff;
-
-
 }
 
-.section-div02 {
-
-    background-color: #443232;
-    color: #ffffff;
-
-
-
-
-
-
-}
-
-.section-div03 {
-
-    background-color: #443232;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 20px solid #554242;
-    color: #ffffff;
-
-}
-
-.section-div01:hover {
-
+.card-div:hover {
     transition: 0.8s;
-    color: #000000;
-    background-color: #443232;
-    box-shadow: 15px 15px 25px black;
-
-
+    box-shadow: 10px 10px 25px #00000093;
 }
 
-.section-div02:hover {
-    transition: 0.8s;
-    color: #000000;
-    background-color: #443232;
-    box-shadow: 15px 15px 25px black;
-
-
-
-
+.card-div p {
+    padding: 0 15px;
 }
 
-.section-div03:hover {
-
-    transition: 0.8s;
-    color: #000000;
-    background-color: #443232;
-    box-shadow: 15px 15px 25px black;
-
-
-}
-
-.section-div04 {
-
-    background-color: #443232;
+.card-img {
     width: 100%;
     height: 200px;
     border-radius: 0 0 30px 30px;
 }
 
-.section-div04:hover {
+/*SECTION 04*/
 
-    transition: 0.8s;
-    color: #000000;
-    background-color: #443232;
-    box-shadow: 15px 15px 25px black;
-
-<<<<<<< HEAD
-
-
-
-=======
 .section04 {
     display: flex;
     align-items: center;
@@ -218,6 +141,8 @@ body {
     padding: 10px;
 }
 
+/*FOOTER*/
+
 footer {
     display: flex;
     align-items: center;
@@ -241,5 +166,4 @@ footer {
 
 .footer-direitos {
     text-align: center;
->>>>>>> 6254dd5e9dc3f8715c4862eb76fd97eaf57c3813
 }
